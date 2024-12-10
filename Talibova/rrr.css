@@ -1,0 +1,55 @@
+
+header h1{
+    border: solid 1px cyan; /*ääris*/
+    padding: 10%; /*vahe tekstist piirist ääriseni*/
+    margin: 10px;
+    border-radius: 60px;
+    width: 60%; /*laius*/
+    background-color: lavenderblush; /*tausta värv*/
+}
+ ul{
+     list-style-type: circle;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     background-color: darksalmon;
+ }
+ li{
+     float: left;
+     display: block;
+     text-align: center;
+     padding: 10px;
+ }
+li a{
+    text-decoration: grey;
+    color: lightgray;
+    padding: 10px;
+}
+li a:hover{ /*lingid fookuses*/
+    background-color: brown;
+}
+footer{
+    text-align: center;
+    /*margin-top: 20%;*/
+    background-color: lightgray;
+    position: fixed;
+    bottom:0;
+    left: 0;
+    width: 100%;
+}
+section{
+    text-align: center;
+    margin-top: auto;
+    background-color: cadetblue;
+    position: fixed;
+    padding: 2%;
+    width: 12%;
+    margin: 10px;
+}
+section h2{
+    font-family: "Berlin Sans FB";
+    border: darkolivegreen;
+    background-color: khaki;
+    padding: 2%;
+    width: 100%;
+}

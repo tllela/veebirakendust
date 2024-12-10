@@ -1,0 +1,29 @@
+body{
+    font-family: Georgia;
+    color: cadetblue; /*teksti värv*/
+}
+h1{
+    border: solid 1px cyan; /*ääris*/
+    padding: 10%; /*vahe tekstist piirist ääriseni*/
+    margin: 10px;
+    border-radius: 60px;
+    width: 60%; /*laius*/
+    background-color: lavenderblush; /*tausta värv*/
+}
+ul {
+    list-style-type: circle; /*markeri tüüp - square, */
+    padding:5px;
+    background-color: lightgray;
+}
+ul li{
+    background-color: aquamarine;
+    margin: 5px;
+}
+table, td{
+    width: 60%;
+    border: solid 1px palegreen;
+    border-collapse: collapse; /*ühine ääris*/
+    text-align: center; /*teksti joondamine keskele*/
+    background-color: cyan;
+
+}
