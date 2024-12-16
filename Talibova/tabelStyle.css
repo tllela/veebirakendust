@@ -1,0 +1,35 @@
+table#Lihtne, td{
+    /*html failis id=Lihtne*/
+    width: 20%;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    border-collapse: collapse;
+} 
+table#keeruline1, table#keeruline1 td{
+    /*html failis id=Lihtne*/
+    width: 30%;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    border-collapse: collapse; 
+    background-color: brown;
+} 
+table#keeruline2, table#keeruline2 td{
+    /*html failis id=Lihtne*/
+    width: 20%;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    border-collapse: collapse;
+    background-color: tan;
+}
+table#keeruline3, table#keeruline3 td{
+    /*html failis id=Lihtne*/
+    width: 20%;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    border-collapse: collapse;
+    background-color: tan;
+}
