@@ -33,3 +33,59 @@ table#keeruline3, table#keeruline3 td{
     border-collapse: collapse;
     background-color: tan;
 }
+
+/*tabeli pseudoelementide kasutamine*/
+#Lihtne tr:nth-child(1) td:nth-child(1){/*1.rida 1.lahter*/
+    background-color: khaki;
+}
+#Lihtne tr:nth-child(1) td:nth-child(2){/*1.rida 2.lahter*/
+  background-color: grey;
+}
+#Lihtne tr:nth-child(1) td:nth-child(3){/*1.rida 3.lahter*/
+  background-color: palegreen;
+}
+#Lihtne tr:nth-child(2) td:nth-child(1){/*1.rida 1.lahter*/
+   background-color: burlywood;
+}
+#Lihtne tr:nth-child(2) td:nth-child(2){/*1.rida 2.lahter*/
+  background-color: antiquewhite;
+}
+#Lihtne tr:nth-child(2) td:nth-child(3){/*1.rida 3.lahter*/
+    background-color: sienna;
+}
+
+table#keeruline4, table#keeruline4 td{
+    border: 1px solid blue;
+    text-align: center;
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+#keeruline4 tr:nth-child(1) td:nth-child(1){/*1.rida 1.lahter*/
+    background-color: khaki;
+    width: 20%;
+}
+#keeruline4 tr:nth-child(1) td:nth-child(2){/*1.rida 2.lahter*/
+    background-color: grey;
+    width: 20%;
+}
+#keeruline4 tr:nth-child(1) td:nth-child(3){/*1.rida 3.lahter*/
+    background-color: palegreen;
+    width: 20%;
+}
+#keeruline4 tr:nth-child(2) td:nth-child(1){/*1.rida 1.lahter*/
+    background-color: burlywood;
+    width: 20%;
+}
+#keeruline4 tr:nth-child(2) td:nth-child(2){/*1.rida 2.lahter*/
+    background-color: antiquewhite;
+    width: 20%;
+}
+#keeruline4 tr:nth-child(2) td:nth-child(3){/*1.rida 3.lahter*/
+    background-color: darkcyan;
+    width: 20%;
+}
+#keeruline4 tr:nth-child(3) td:nth-child(1){/*1.rida 1.lahter*/
+    background-color: sienna;
+    width: 20%;
+}
